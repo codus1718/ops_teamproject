@@ -10,6 +10,6 @@
 3. Estimating and Eliminating Trend
   - Exponential Weighted Moving Average
   - Differencing
-4. Basic data prediction(failed due to wrong starting point(train test data split)
+4. Basic data prediction(failed due to wrong starting point(train test data split))
 - LSTM(Arima: Auto Regressive Integrated Moving Average)
 
