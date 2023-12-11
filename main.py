@@ -11,7 +11,7 @@ import pandas as pd
 from time import sleep
 from tracemalloc import start
 from matplotlib import ticker
-from other_file import data1_function
+from 1_🫤_data1 import data1_function
 
 st.set_page_config(
     page_icon="📊",
@@ -20,11 +20,11 @@ st.set_page_config(
 )
 
 st.sidebar.title('this is sidebar')
-selected_page = st.sidebar.selectbox("Select a page", ["Home", "Other"])
+selected_page = st.sidebar.selectbox("Select a page", ["Home", "data1"])
 
 if selected_page == "Home":
     home()
-elif selected_page == "Other":
+elif selected_page == "data1":
     data1_function()
 
 
