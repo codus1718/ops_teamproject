@@ -18,7 +18,10 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title('GPVP')
+st.sidebar.title('this is sidebar')
+
+
+st.title('GPV')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
 
 
@@ -31,7 +34,7 @@ max_date = pd.to_datetime('2023-11-29').date()
 min_date = pd.to_datetime('2008-04-15').date()
 
 
-start = st.date_input('Start Date', value=pd.to_datetime('2008-04-15'), max_value = max_date)
+start = st.date_input('Start Date', value=pd.to_datetime('2008-04-15'), min_value = min_date, max_value = max_date)
 end = st.date_input('End Date',value=pd.to_datetime('2023-11-29'), min_value = min_date, max_value = max_date)
 
 
