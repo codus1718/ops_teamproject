@@ -21,10 +21,10 @@ st.set_page_config(
 st.sidebar.title('this is sidebar')
 selected_page = st.sidebar.selectbox("Select a page", ["Home", "Other"])
 
-    if selected_page == "Home":
-        home()
-    elif selected_page == "Other":
-        other_function()
+if selected_page == "Home":
+    home()
+elif selected_page == "Other":
+    other_function()
 
 
 st.title('GPV')
