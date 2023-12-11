@@ -20,4 +20,4 @@ fig = px.line(df, x='Date', y=['Oil Import', 'Supply', 'Demand', 'Total Inventor
               title='Oil Data Over Time')
 
 # 선 그래프를 streamlit에 표시
-st.plotly_chart(fig)
+st.plotly_chart(fig, use_container_width=True)
