@@ -21,7 +21,7 @@ st.set_page_config(
 
 st.title('Visualization of Gasoline Prices from 2008 to 2023')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
-
+st.sidebar.title('Gasoline Price')
 
 
 # CSV 파일 불러오기
