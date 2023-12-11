@@ -11,7 +11,7 @@ import pandas as pd
 from time import sleep
 from tracemalloc import start
 from matplotlib import ticker
-from 1_🫤_data1 import data1_function
+from data1 import data1_function
 
 st.set_page_config(
     page_icon="📊",
