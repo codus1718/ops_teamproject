@@ -23,7 +23,7 @@ st.write('This is a team project for the Open Source Programming class.')
 
 
 # CSV 파일 불러오기
-data = pd.read_csv("C:\\Users\\chaeyeon\\Desktop\\GPVP\\neural.csv")
+data = pd.read_csv("neural.csv")
 
 # 최대, 최소 날짜 설정
 max_date = pd.to_datetime('2023-11-29').date()
