@@ -21,6 +21,8 @@ st.set_page_config(
 st.title('GPVP')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
 
+cols = st.colums(1, 1, 2)
+
 
 # CSV 파일 불러오기
 data = pd.read_csv("neural.csv")
