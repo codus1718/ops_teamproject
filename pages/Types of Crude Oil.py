@@ -26,4 +26,4 @@ fig = px.line(merged_df, x='Date', y=['WTI', 'Brent', 'Dubai', 'Gasoline'],
               title='Combined Visualization of WTI, Brent, Dubai, and Gasoline')
 
 # 시각화 보여주기
-fig.show()
+st.plotly_chart(fig, use_container_width=True)
