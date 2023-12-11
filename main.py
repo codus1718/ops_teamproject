@@ -14,12 +14,12 @@ from matplotlib import ticker
 
 st.set_page_config(
     page_icon="📊",
-    page_title="OSP_teamproject",
+    page_title="GPVP",
     layout="wide"
 )
 
-st.title('OSP_teamproject')
-st.write('This is a team project for the Open Source Programming class.')
+st.title('GPVP')
+st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
 
 
 # CSV 파일 불러오기
