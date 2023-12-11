@@ -19,15 +19,6 @@ st.set_page_config(
     layout="wide"
 )
 
-st.sidebar.title('this is sidebar')
-selected_page = st.sidebar.selectbox("Select a page", ["Home", "data1"])
-
-if selected_page == "Home":
-    home()
-elif selected_page == "data1":
-    data1_function()
-
-
 def home():
     st.title('GPV')
     st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
@@ -54,6 +45,21 @@ def home():
     else:
         st.warning("CSV 파일은 'ds'와 'y' 열을 포함해야 합니다.")
         None
+
+
+    
+
+
+st.sidebar.title('this is sidebar')
+selected_page = st.sidebar.selectbox("Select a page", ["Home", "data1"])
+
+if selected_page == "Home":
+    home()
+elif selected_page == "data1":
+    data1_function()
+
+
+
     
 
 
