@@ -11,7 +11,7 @@ st.set_page_config(
 st.title('Supply And Demand')
 st.write('')
 
-data = pd.read_csv("supply_demand_refined.csv")
+df = pd.read_csv("supply_demand_refined.csv")
 
 
 # 선 그래프 시각화
