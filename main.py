@@ -39,7 +39,7 @@ start = st.date_input('Start', value=pd.to_datetime('2008-04-15'), max_value = m
 end = st.date_input('End',value=pd.to_datetime('2023-11-29'), min_value = min_date, max_value = max_date)
 
 
- if 'ds' in data.columns and 'y' in data.columns:
+if 'ds' in data.columns and 'y' in data.columns:
     df = data[['ds', 'y']].copy()
     df['ds'] = pd.to_datetime(df['ds'])
 
