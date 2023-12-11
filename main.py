@@ -22,8 +22,8 @@ st.title('GPVP')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
 
 columns = st.columns((1, 1, 2))
-columns[0].metric("A")
-columns[0].metric("B")
+columns[0].metric("A", "a", "asdf")
+columns[0].metric("B", "b", "ac")
 
 
 
