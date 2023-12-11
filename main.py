@@ -21,7 +21,7 @@ st.set_page_config(
 st.title('GPVP')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
 
-rows = st.rows(1, 1, 2)
+rows = st.rows((1, 1, 2))
 rows[0].metric("A")
 rows[0].metric("B")
 
