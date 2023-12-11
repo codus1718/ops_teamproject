@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(
     page_icon="📊",
-    page_title="Team 6",
+    page_title="Supply And Demand",
     layout="wide"
 )
 
