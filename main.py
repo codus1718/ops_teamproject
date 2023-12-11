@@ -21,7 +21,6 @@ st.set_page_config(
 st.title('GPVP')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
 
-# rows = st.rows(1, 1, 2)
 
 
 
@@ -37,10 +36,17 @@ start = st.date_input('Start', value=pd.to_datetime('2008-04-15'), max_value = m
 end = st.date_input('End',value=pd.to_datetime('2023-11-29'), min_value = min_date, max_value = max_date)
 
 
-if 'ds' in data.columns and 'y' in data.columns:
+rows = st.rows(1, 1, 2)
+rows[0].metric(A)
+rows[0].metric(B)
+rows[1].metric(
+    if 'ds' in data.columns and 'y' in data.columns:
     df = data[['ds', 'y']].copy()
     df['ds'] = pd.to_datetime(df['ds'])
 
     st.line_chart(df.set_index('ds').loc[start:end])
 else:
     st.warning("CSV 파일은 'ds'와 'y' 열을 포함해야 합니다.")
+)
+
+
