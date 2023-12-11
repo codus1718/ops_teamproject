@@ -14,7 +14,7 @@ from matplotlib import ticker
 
 st.set_page_config(
     page_icon="📊",
-    page_title="GPV",
+    page_title="Team 6",
     layout="wide"
 )
 
