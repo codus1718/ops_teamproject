@@ -1,7 +1,11 @@
 import pandas as pd
 import plotly.express as px
 
-
+st.set_page_config(
+    page_icon="📊",
+    page_title="GPV",
+    layout="wide"
+)
 
 
 st.title('Combined Price Trends of WTI, Brent, Dubai, and Gasoline')
