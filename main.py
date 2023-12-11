@@ -21,9 +21,9 @@ st.set_page_config(
 st.title('GPVP')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
 
-rows = st.rows((1, 1, 2))
-rows[0].metric("A")
-rows[0].metric("B")
+columns = st.columns((1, 1, 2))
+columns[0].metric("A")
+columns[0].metric("B")
 
 
 
@@ -48,6 +48,6 @@ else:
     st.warning("CSV 파일은 'ds'와 'y' 열을 포함해야 합니다.")
     visualization_chart = None
     
-rows[1].metric(visualization_chart)
+columns[1].metric(visualization_chart)
 
 
