@@ -2,3 +2,4 @@ matplotlib
 yfinance == 0.2.33
 pandas
 plotly.express
+plotly
