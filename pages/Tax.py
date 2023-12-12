@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title('Inventory and Consumption')
-
+st.write("열 이름:", df.columns)
 
 df = pd.read_csv('tax.csv')
 
