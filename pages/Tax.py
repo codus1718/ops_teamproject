@@ -10,11 +10,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.write("열 이름:", df.columns)
+
 st.title('Tax Components Over Time')
-
-
-
 
 
 fig = px.line(df, x='Date', y=['교통에너지환경세', '교육세', '주행'],
