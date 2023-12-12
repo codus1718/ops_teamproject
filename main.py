@@ -21,7 +21,7 @@ st.set_page_config(
 
 st.title('Visualization of Gasoline Prices')
 st.write('The fluctuation of oil prices from April 15, 2008, to November 29, 2023.')
-st.write('prices(KRW/L)')
+
 
 
 # CSV 파일 불러오기
@@ -45,7 +45,7 @@ else:
     st.warning("CSV 파일은 'ds'와 'y' 열을 포함해야 합니다.")
     None
 
-
+st.write('X = Date, Y = prices(KRW/L)')
     
 
 
