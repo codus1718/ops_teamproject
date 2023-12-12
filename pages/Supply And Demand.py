@@ -16,7 +16,7 @@ df = pd.read_csv("supply_demand_refined.csv")
 
 # 선 그래프 시각화
 fig = px.line(df, x='Date', y=['Oil Import', 'Supply', 'Demand', 'Total Inventory'],
-              labels={'value': 'Amount of Gasoline(1K Bbl)'},
+              labels={'value': 'Amount of Oil(1k Bbl)'},
               title='Oil Data Over Time')
 
 # 선 그래프를 streamlit에 표시
