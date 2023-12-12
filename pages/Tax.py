@@ -14,7 +14,7 @@ st.set_page_config(
 st.title('Tax Components Over Time')
 
 
-fig = px.line(df, x='Date', y=['교통에너지환경세', '교육세', '주행'],
+fig = px.line(df, x='Date', y=['교통에너지환경세', '교육세', '주행세'],
               labels={'value': 'Tax(KRW)'})
 
 
