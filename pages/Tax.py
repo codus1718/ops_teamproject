@@ -20,4 +20,4 @@ fig = px.line(df, x='Date', y=['교통에너지환경세', '교육세', '주행'
               title='Tax Components Over Time')
 
 
-st.plotly_chart(fig)
+st.plotly_chart(fig, use_container_width=True)
