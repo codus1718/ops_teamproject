@@ -22,7 +22,7 @@ merged_df = pd.merge(df1, df2, on='Date', how='inner')
 
 # 시각화
 fig = px.line(merged_df, x='Date', y=['WTI', 'Brent', 'Dubai', 'Gasoline'],
-              labels={'value': 'Value'},
+              labels={'value': 'Prices(KRW/L)'},
               title='Combined Visualization of WTI, Brent, Dubai, and Gasoline')
 
 # 시각화 보여주기
