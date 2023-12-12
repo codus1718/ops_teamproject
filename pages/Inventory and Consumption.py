@@ -14,7 +14,7 @@ st.title('Inventory and Consumption')
 df = pd.read_csv('consumption_inventory.csv')
 
 fig = px.line(df, x='Date', y=['Inventory', 'Consumption'],
-              labels={'value': 'Value'},
+              labels={'value': 'Amount of Gasoline(1K Bbl)'},
               title='Inventory and Consumption Over Time')
 
 
