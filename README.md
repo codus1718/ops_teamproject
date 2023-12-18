@@ -31,10 +31,11 @@ Date: 2023-11-30
 
 ### 2-5. Time Series Analysis 
 Date: 2023-12-01
-1. Prediction using neuralprophet
-2. Saved forecast model using pickle
-3. Model RMSE:139.6
-4. Model Loss:0.017
+1. Visualization
+2. Prediction using neuralprophet
+3. Saved forecast model using pickle
+4. Model RMSE:139.6
+5. Model Loss:0.017
 
 ### 2-5. Time Series Analysis Validation 
 Date: 2023-12-01
