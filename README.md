@@ -49,3 +49,17 @@ Date: 2023-12-01
 Date: 2023-12-05
 1. Trimmed down the whole process of data analysis, visualization, and prediction
 2. Used saved pickle model for the fast deployment
+
+### 2-7. GPV(Gasoline Price Visualization)
+Date: 2023/12/06 ~ 2023/12/11
+1. Gathered data about factors of gasoline price
+2. Gasoline Price, Oil Price, Tax, Distribution, Inventory & consumption, Total supply & demand
+
+### 2-8. GPVA(Gasoline Price Visualization&Analysis)
+Date: 2023/12/16
+1. Conducted Time series decomposition with an explanation
+
+### 2-9. Finalize GPVA(Gasoline Price Visualization&Analysis)
+Date: 2023/12/18
+1. Conducted STL(Seasonal Trend Decomposition using LOESS) decomposition with an explanation, Detrend, and Deseasonalize.
+
